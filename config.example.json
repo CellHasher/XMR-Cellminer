@@ -1,0 +1,21 @@
+{
+  "_comment_pool": "pool:port — any Monero stratum pool",
+  "pool": "pool.supportxmr.com:3333",
+
+  "_comment_wallet": "Your XMR wallet address",
+  "wallet": "YOUR_XMR_WALLET_ADDRESS",
+
+  "_comment_pass": "Password field — on some pools (e.g. supportxmr) this is used as the worker name shown in the dashboard",
+  "pass": "x",
+
+  "_comment_worker": "Worker ID sent as rigid field in stratum login",
+  "worker": "cellminer-01",
+
+  "_comment_threads": "Number of mining threads (max 8). Match to your big core count for best results",
+  "threads": 8,
+
+  "huge_pages": true,
+
+  "_comment_mode": "full = 2GB dataset (needs ~2.5GB free RAM), light = 256MB (for devices with 4GB RAM or less)",
+  "mode": "full"
+}
